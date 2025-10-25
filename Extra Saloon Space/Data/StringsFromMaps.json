@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+    "LogName": "Map Strings Edit",
+    "Action": "EditData",
+    "Target": "Strings/StringsFromMaps",
+    "Entries": {
+                "RaffieJohn.Arcade1": "{{i18n: RaffieJohn.Arcade1}}"
+            }
+        }
+    ]
+}

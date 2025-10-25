@@ -1,0 +1,12 @@
+{
+    "Name": "Extra Saloon Space",
+    "Author": "RaffieJohn",
+    "Version": "0.0.1",
+    "Description": "Adds more space to the Saloon.",
+    "UniqueID": "RaffieJohn.ExtraSaloonSpace",
+    "Dependencies": [],
+    "UpdateKeys": [ "Nexus: " ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }

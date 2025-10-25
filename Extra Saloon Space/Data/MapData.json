@@ -1,0 +1,61 @@
+{
+    "Changes": [
+
+		//===================================
+		// WHEN QUEST VERSION IS SELECTED
+		//===================================
+
+		//MAPS
+		{
+			"LogName": "Saloon Addition",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"FromFile": "assets/Maps/RaffieJohn.SaloonExpandedSpace.tmx",
+			"ToArea": {
+				"X": 0,
+				"Y": 25,
+				"Width": 46,
+				"Height": 25
+			}
+		},
+
+    	//===================================
+		//             STAIRS
+		//===================================
+
+		{
+			"LogName": "Saloon Addition - Stairs",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"FromFile": "assets/Maps/RaffieJohn.SaloonExpandedSpace_Stairs.tmx",
+			"PatchMode": "ReplaceByLayer",
+			"ToArea": {
+				"X": 30,
+				"Y": 20,
+				"Width": 4,
+				"Height": 5
+			},
+			"When":{
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			  "Priority": "Late"
+		},
+		{
+			"LogName": "Saloon Addition - Stairs SVE Ver",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"FromFile": "assets/Maps/RaffieJohn.SaloonExpandedSpace_Stairs_SVE.tmx",
+			"PatchMode": "ReplaceByLayer",
+			"ToArea": {
+				"X": 30,
+				"Y": 20,
+				"Width": 4,
+				"Height": 5
+			},
+			"When":{
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			  "Priority": "Late"
+		}
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Format":"2.8.0",
+    /*"ConfigSchema": {
+        "SVE Character Schedule Changes": { //This will only change SVE character schedules if this mod is installed
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "SVE Schedule Changes",
+            "AllowBlank": false,
+            "Description": "This will only change SVE character schedules if SVE is installed."
+        }
+      },*/
+    "Changes":[
+        {
+            "Action": "Include",
+            "FromFile":"Data/StringsFromMaps.json"
+        },
+        {
+            "LogName": "Map Data Inclusion",
+            "Action": "Include",
+            "FromFile": "Data/MapData.json"
+        },
+
+        //LOADING MAPS
+        {
+			"LogName": "Saloon Basement Map",
+			"Action": "Load",
+			"Target": "Maps/RaffieJohn.SaloonExpandedSpace",
+			"FromFile": "assets/Maps/RaffieJohn.SaloonExpandedSpace.tmx"
+		}
+    ]
+ }
+ 
