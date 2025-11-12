@@ -1,7 +1,7 @@
 {
     "Name": "Extra Saloon Space",
     "Author": "RaffieJohn",
-    "Version": "0.0.2",
+    "Version": "0.0.3",
     "Description": "Adds more space to the Saloon.",
     "UniqueID": "RaffieJohn.ExtraSaloonSpace",
     "Dependencies": [],
