@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "LogName": "Lilly Singer Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RaffieJohn_Lilly",
+            "Entries": {
+                "Introduction": "{{i18n: Lilly.Introduction}}",
+
+                //Location Specific
+                "Saloon": "{{i18n: Lilly.Saloon}}",
+
+                //General Dialogue
+                "Mon": "{{i18n: Lilly.Mon}}",
+                "Tue": "{{i18n: Lilly.Tue}}",
+                "Wed": "{{i18n: Lilly.Wed}}",
+                "Thu": "{{i18n: Lilly.Thru}}",
+                "Fri": "{{i18n: Lilly.Fri}}",
+                "Sat": "{{i18n: Lilly.Sat}}",
+                "Sun": "{{i18n: Lilly.Sun}}"
+            }
+        }
+    ]
+}

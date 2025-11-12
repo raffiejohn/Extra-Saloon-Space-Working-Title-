@@ -1,0 +1,117 @@
+{
+    "Changes": [
+        //Basic NPC Manifestation
+        //Adding Lilly Character info here
+        {
+            "LogName": "Lilly Singer Character Data",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RaffieJohn_Lilly": {
+                    "DisplayName": "{{i18n: RaffieJohn.Lilly}}",
+                    "BirthSeason": null,
+                    "BirthDay": 0,
+                    "HomeRegion": "Other",
+                    "Language": "Default",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Neutral",
+                    "IsDarkSkinned": true,
+                    "CanBeRomanced": false,
+                    "LoveInterest": "",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "CanSocialize": "FALSE",
+                    "CanVisitIsland": "FALSE",
+                    "CanGreetNearbyCharacters": true,
+                    "ItemDeliveryQuests": "FALSE",
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "WinterStarGifts": [],
+                    "WinterStarParticipant": false,
+                    "SpouseRoom": {},
+                    "SpousePatio": {},
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "Saloon", //Need to change to the warp room later
+                            "Tile": {
+                                "X": 32,
+                                "Y": 7
+                            },
+                            "Direction": "Down"
+                        }
+                    ],
+                    "TextureName": "Lilly",
+                    "Appearance": [
+                        {
+                            "Id": "Lilly_Outfit",
+                            "Condition": null,
+                            "Season": null,
+                            "Indoors": true,
+                            "Outdoors": true,
+                            "Portrait": "Portraits/Lilly",
+                            "Sprite": "Characters/Lilly",
+                            "IsIslandAttire": false,
+                            "Precedence": -1000,
+                            "Weight": 0
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "CustomFields": {},
+                    "Breather": true
+                }
+            }
+        },
+        // Animations
+        {
+            "LogName": "Lilly Animation Data",
+            "Action": "EditData",
+            "Target": "Data/AnimationDescriptions",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "Lilly_Singing": "0/16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 28 28 28 29 29 29 30 30 30 31 31 31 32 32 32/0", // the start then the animation frames then the end of the animation
+                //the more of the same number the slower the animation
+                "lilly_sleep": "0/0/0"
+            }
+        },
+        // Loads Schedule
+        {
+            "LogName": "Schedule Inclusion - Lilly",
+            "Action": "Load",
+            "Target": "Characters/schedules/RaffieJohn_Lilly",
+            "FromFile": "Assets/empty.json"
+        },
+        //Loads Dialogue
+        {
+            "LogName": "Dialogue Inclusion - Lilly",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/RaffieJohn_Lilly",
+            "FromFile": "Assets/empty.json"
+        },
+        // Loads Sprites
+        {
+            "LogName": "Sprites - Lilly",
+            "Action": "Load",
+            "Target": "Characters/Lilly",
+            "FromFile": "Assets/Characters/Lilly/Lilly_Sprites.png"
+        },
+        // Loads Portraits
+        {
+            "LogName": "Portraits - Lilly",
+            "Action": "Load",
+            "Target": "Portraits/Lilly",
+            "FromFile": "Assets/Portraits/Lilly/Lilly_Portraits.png"
+        }
+    ]
+}

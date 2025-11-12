@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+            "LogName": "SaloonNPCs (Lilly) Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/RaffieJohn_Lilly",
+            "Entries": {
+                //(0 = Back turned to you (up), 1 = facing right, 2 = Facing you (down), 3 = facing left)
+
+                //Rain & Snow
+
+                "rain": "0630 Saloon 23 33 2/1400 Saloon 23 33 Lilly_Singing/200 233 5 lilly_sleep",
+
+                //Days that she works
+                "Mon": "0630 Saloon 23 33 2/1400 Saloon 23 33 Lilly_Singing/200 233 5 lilly_sleep",
+
+                "Wed": "0630 Saloon 23 33 2/1400 Saloon 23 33 Lilly_Singing/200 233 5 lilly_sleep",
+
+                "Fri": "0630 Saloon 23 33 2/1400 Saloon 23 33 Lilly_Singing/200 233 5 lilly_sleep",
+
+                "spring": "GOTO rain",
+
+                //Days that she doesn't work
+                "Tue": "630 Saloon 43 20 2/100 1 4 lilly_sleep",
+
+                "Thu": "630 Saloon 43 20 2/100 1 4 lilly_sleep",
+
+                "Sat": "630 Saloon 43 20 2/100 1 4 lilly_sleep",
+
+                "Sun": "630 Saloon 43 20 2/100 1 4 lilly_sleep"
+
+            }
+        }
+    ]
+}

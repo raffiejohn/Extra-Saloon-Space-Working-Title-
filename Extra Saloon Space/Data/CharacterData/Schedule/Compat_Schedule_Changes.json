@@ -1,0 +1,59 @@
+{
+    "Changes": [
+        //================================
+        // NOTE: IF {{_MODID_}} IS USED IT MUST BE CHANGED TO THE MOD ID OF THE MOD IT'S FROM
+        //================================
+
+        //------------------------------------------------
+        //DEAD BOYS DETECTIVES MOD COMPATIBILITY
+        //------------------------------------------------
+
+        {
+        "LogName": "Changing Charles schedule when he goes to the Saloon",
+        "Action": "EditData",
+        "Target": "Characters/schedules/CharlesRowland",
+		"Entries": {
+			"rain": "0610 handwrittenhello.dbda_DeadBoyAgency 10 7 3/0620 handwrittenhello.dbda_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"/1100 ArchaeologyHouse 15 9 0/1430 handwrittenhello.dbda_TragicMicks 11 16 3/1700 Saloon 29 31 0 \"Strings\\schedules\\CharlesRowland:Saloon.000\"/2200 handwrittenhello.dbda_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"",
+
+			"spring_Fri": "0610 handwrittenhello.dbda_DeadBoyAgency 10 7 3/0620 handwrittenhello.dbda_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"/1100 ArchaeologyHouse 15 9 0/1430 handwrittenhello.dbda_TragicMicks 11 16 3/1700 Saloon 29 31 0 \"Strings\\schedules\\CharlesRowland:Saloon.000\"/2230 handwrittenhello.dbda_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\""
+            },
+        "When": {"HasMod|contains=handwrittenhello.dbda": true}
+        },
+        {
+        "LogName": "Changing Edwin schedule when he goes to the Saloon",
+        "Action": "EditData",
+        "Target": "Characters/schedules/EdwinPayne",
+		"Entries": {
+			"rain": "0610 handwrittenhello.dbda_DeadBoyAgency 4 6 2 edwin_pose/0620 handwrittenhello.dbda_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.000\"/1100 ArchaeologyHouse 10 11 3/1430 handwrittenhello.dbda_TragicMicks 4 22 1/1700 Saloon 30 31 2 edwin_pose/2200 handwrittenhello.dbda_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.001\"",
+			
+			"spring_Fri": "0610 handwrittenhello.dbda_DeadBoyAgency 4 6 2 edwin_pose/0620 handwrittenhello.dbda_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.000\"/1100 ArchaeologyHouse 10 11 3/1430 handwrittenhello.dbda_TragicMicks 4 22 1/1700 Saloon 30 31 2 edwin_pose \"Strings\\schedules\\EdwinPayne:Saloon.000\"/2230 handwrittenhello.dbda_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.001\""
+            },
+        "When": {"HasMod|contains=handwrittenhello.dbda": true}
+        },
+
+        //------------------------------------------------
+        //JORTS AND JEAN MOD COMPATIBILITY
+        //------------------------------------------------
+
+        {
+            "LogName": "Changes Jean Schedule when at the saloon",
+            "Action": "EditData",
+            "Target": "Characters/schedules/JeanCat",
+			"Entries": {
+				"Fri": "610 ArchaeologyHouse 20 15 0/1400 Town 91 100 2/1600 Saloon 28 41 0 JeanCat_cleaning/2400 Town 71 70 0/2440 AdventureGuild 10 12 3 JeanCat_catnap"
+            },
+            "When": {"HasMod|contains=tiakall.jortsandjean": true},
+            "Priority": "Late"
+        },
+        {
+            "LogName": "Changes Jorts Schedule when at the saloon",
+            "Action": "EditData",
+            "Target": "Characters/schedules/JortsCat",
+			"Entries": {
+				"Fri": "610 ArchaeologyHouse 19 15 0 JortsCat_catnap/1400 Town 90 101 2/1600 Saloon 27 41 0 JortsCat_cleaning/2400 Town 72 70 0/2440 AdventureGuild 9 12 1 JortsCat_catnap"
+			},
+            "When": {"HasMod|contains=tiakall.jortsandjean": true},
+            "Priority": "Late"
+        }
+    ]
+}
