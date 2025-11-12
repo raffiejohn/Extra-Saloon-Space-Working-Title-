@@ -1,5 +1,5 @@
 {
-    "Format":"2.8.0",
+    "Format":"2.8.1",
     /*"ConfigSchema": {
         "SVE Character Schedule Changes": { //This will only change SVE character schedules if this mod is installed
             "AllowValues": "true, false",
@@ -11,22 +11,44 @@
       },*/
     "Changes":[
         {
+            "LogName": "NPC Inclusion",
+            "Action":"Include",
+            "FromFile": "Data/CharacterData/SaloonNPCs.json"
+        },
+        {
+            "LogName": "NPC Schedule Inclusion",
+            "Action": "Include",
+            "FromFile": "Data/CharacterData/Schedule/Lilly_Schedule.json"
+        },
+        {
+            "LogName": "NPC Schedule Compat Inclusion",
+            "Action": "Include",
+            "FromFile": "Data/CharacterData/Schedule/Compat_Schedule_Changes.json"
+        },
+        {
+            "LogName": "Map Strings Edit",
             "Action": "Include",
             "FromFile":"Data/StringsFromMaps.json"
         },
         {
             "LogName": "Map Data Inclusion",
             "Action": "Include",
-            "FromFile": "Data/MapData.json"
+            "FromFile": "Data/MapData.json",
+            "Update": "OnLocationChange, OnTimeChange"
+        },
+        {
+            "LogName": "Dialogue For Lilly Data Inclusion",
+            "Action": "Include",
+            "FromFile": "Data/CharacterData/Dialogue/Lilly_Dialogue.json"
         },
 
         //LOADING MAPS
         {
-			"LogName": "Saloon Basement Map",
-			"Action": "Load",
-			"Target": "Maps/RaffieJohn.SaloonExpandedSpace",
-			"FromFile": "assets/Maps/RaffieJohn.SaloonExpandedSpace.tmx"
-		}
+          "LogName": "Loads Maps",
+          "Action": "Load",
+          "Target": "Maps/RaffieJohn.SaloonExpandedSpace, Maps/RaffieJohn.SaloonExpandedSpace_WarpRoom",
+          "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
+        }
     ]
  }
  
