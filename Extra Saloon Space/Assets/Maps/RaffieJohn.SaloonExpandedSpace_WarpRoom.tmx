@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="18">
+ <properties>
+  <property name="NPCWarp" value="3 11 Saloon 1 20"/>
+  <property name="forceLoadPathLayerLights" value="T"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="500"/>
+    <frame tileid="550" duration="500"/>
+    <frame tileid="581" duration="500"/>
+    <frame tileid="582" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="1378">
+   <animation>
+    <frame tileid="1378" duration="120"/>
+    <frame tileid="1381" duration="120"/>
+    <frame tileid="1384" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1379">
+   <animation>
+    <frame tileid="1379" duration="120"/>
+    <frame tileid="1382" duration="120"/>
+    <frame tileid="1385" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1380">
+   <animation>
+    <frame tileid="1380" duration="120"/>
+    <frame tileid="1383" duration="120"/>
+    <frame tileid="1386" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1410">
+   <animation>
+    <frame tileid="1410" duration="250"/>
+    <frame tileid="1474" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1411">
+   <animation>
+    <frame tileid="1411" duration="500"/>
+    <frame tileid="1475" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3489" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="7" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,35,35,35,35,35,0,
+0,67,67,67,67,67,0,
+0,0,0,0,0,0,0,
+200,201,200,201,200,201,200,
+232,233,232,233,232,233,232,
+264,265,264,265,264,265,264,
+232,233,232,233,232,233,232,
+264,265,264,265,264,265,264,
+232,233,232,233,232,233,232,
+264,265,264,265,264,265,264,
+232,233,232,233,232,233,232
+</data>
+ </layer>
+ <layer id="2" name="Back2" width="7" height="12">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Buildings" width="7" height="12">
+  <data encoding="csv">
+10,3,3,3,3,3,12,
+65,0,0,0,0,0,69,
+65,0,0,0,0,0,69,
+65,99,99,99,99,99,69,
+65,0,0,0,0,0,69,
+65,0,0,0,0,0,69,
+65,0,0,0,0,0,69,
+65,0,0,0,0,0,69,
+65,0,0,0,0,0,69,
+65,0,0,0,0,0,69,
+161,0,0,0,0,0,168,
+1,1,97,0,131,1,1
+</data>
+ </layer>
+ <layer id="4" name="Front" width="7" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,162,163,0,164,167,0,
+0,0,0,166,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Front2" width="7" height="12">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Paths" width="7" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,3497,0,0,0,3497,0,
+0,0,0,0,0,0,0,
+0,0,3497,0,3497,0,0,
+0,0,3497,0,3497,0,0,
+0,0,0,0,0,0,0,
+0,3497,0,0,0,3497,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Back"/>
+ <objectgroup id="8" name="Back2"/>
+ <objectgroup id="9" name="Buildings"/>
+ <objectgroup id="10" name="Front"/>
+ <objectgroup id="11" name="Front2"/>
+ <objectgroup id="12" name="Paths"/>
+</map>
