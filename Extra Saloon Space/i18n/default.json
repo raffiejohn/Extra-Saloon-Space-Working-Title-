@@ -9,14 +9,14 @@
     //======= Dialogue =======
     "Lilly.Introduction": "Hello. I'm Lilly, the new singer for the Saloon. I hope you enjoy my performances. I'll be here Mondays, Wednesdays, Fridays, and when it rains. Hope you can make it to one of my shows.$1",
     
-    "Lilly.Saloon": "It's such a cozy place, isn't it? Perfect for a night of music and good company.",
-    "Lilly.Mon": "Mondays are for fresh starts. Let's make this week unforgettable!",
-    "Lilly.Tue": "Tuesdays are a bit quieter, but I love the calm before the weekend storm.",
-    "Lilly.Wed": "Wednesdays are perfect for midweek melodies. Care to      join me?",
-    "Lilly.Thru": "Thursdays are when the weekend vibes start to creep in. I can feel it!",
-    "Lilly.Fri": "Fridays are my favorite! The energy in the air is electric.",
-    "Lilly.Sat": "Saturdays are for letting loose and enjoying the music.",
-    "Lilly.Sun": "Sundays are for relaxing and recharging. A perfect end to the week.",
+    "Lilly.Saloon": "It's such a cozy place, isn't it? Perfect for a night of music and good company.$0",
+    "Lilly.Mon": "Mondays are for fresh starts. Let's make this week unforgettable!$1",
+    "Lilly.Tue": "Tuesdays are a bit quieter, but I love the calm before the weekend storm.$0",
+    "Lilly.Wed": "Wednesdays are perfect for midweek melodies. Care to join me?$0",
+    "Lilly.Thru": "Thursdays are when the weekend vibes start to creep in. I can feel it!$0",
+    "Lilly.Fri": "Fridays are my favorite! The energy in the air is electric.$1",
+    "Lilly.Sat": "Saturdays are for letting loose and enjoying the music.$1",
+    "Lilly.Sun": "Sundays are for relaxing and recharging. A perfect end to the week.$0",
 
     //======= Location Names =======
     "RaffieJohn.SaloonWarpRoom.Name": "Warp Room",

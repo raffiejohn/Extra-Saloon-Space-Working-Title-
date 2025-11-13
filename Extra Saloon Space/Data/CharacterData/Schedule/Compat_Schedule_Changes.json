@@ -5,7 +5,7 @@
         //================================
 
         //------------------------------------------------
-        //DEAD BOYS DETECTIVES MOD COMPATIBILITY
+        // DEAD BOYS DETECTIVES MOD COMPATIBILITY
         //------------------------------------------------
 
         {
@@ -32,7 +32,7 @@
         },
 
         //------------------------------------------------
-        //JORTS AND JEAN MOD COMPATIBILITY
+        // JORTS AND JEAN MOD COMPATIBILITY
         //------------------------------------------------
 
         {
@@ -53,6 +53,77 @@
 				"Fri": "610 ArchaeologyHouse 19 15 0 JortsCat_catnap/1400 Town 90 101 2/1600 Saloon 27 41 0 JortsCat_cleaning/2400 Town 72 70 0/2440 AdventureGuild 9 12 1 JortsCat_catnap"
 			},
             "When": {"HasMod|contains=tiakall.jortsandjean": true},
+            "Priority": "Late"
+        },
+        //------------------------------------------------
+        // THE COLLECTOR MOD COMPATIBILITY
+        //------------------------------------------------
+        {
+            "LogName": "Changing Grady Schedule When at the Saloon",
+            "Action": "EditData",
+            "Target": "Characters/schedules/FC.Grady",
+            "Entries": {
+                "Mon": "800 Fellowclown.TC_GradysHouse 4 14 0/900 Fellowclown.TC_GradysHouse 6 13 0/1000 Fellowclown.TC_GradysHouse 6 14 1 FC.GradySitEat/1200 Mine 13 10 3/1500 Saloon 36 35 2 FC.GradySitDrink/1700 ScienceHouse 18 18 0 FC.GradySit0/2000 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"", 
+
+                "Wed": "800 Fellowclown.TC_GradysHouse 4 14 0/900 Fellowclown.TC_GradysHouse 6 13 0/1200 Beach 47 21 1/1500 Town 69 91 0 FC.GradySit0/1900 Saloon 36 35 2 FC.GradySitDrink/2200 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",  
+
+                "Fri": "800 Fellowclown.TC_GradysBasement 19 10 3/1000 Fellowclown.TC_GradysHouse 6 14 1 FC.GradySitEat/1200 Mine 13 10 3/1500 Saloon 36 35 2 FC.GradySitDrink/1700 ScienceHouse 18 18 0 FC.GradySit0/2000 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\""
+            },
+            "When": {"HasMod|contains=Fellowclown.TC": true},
+            "Priority": "Late"
+        },
+        {
+            "LogName": "Changing Grady Schedule When at the Saloon - If both The Wayfarer and The Collector are installed",
+            "Action": "EditData",
+            "Target": "Characters/schedules/FC.Grady",
+            "Entries": {
+                "Mon": "1000 Fellowclown.TC_GradysHouse 4 14 0/1030 Fellowclown.TC_GradysHouse 6 13 0/1200 Fellowclown.TC_GradysHouse 6 14 1 FC.GradySitEat/1700 Forest 33 25 2/1930 Saloon 36 35 2 FC.GradySitDrink/2200 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"", 
+
+                "Tue": "900 Fellowclown.TW_BoatBelly 29 13 1/1200 Town 37 68 3/1500 Beach 47 21 1/1930 Saloon 36 35 2 FC.GradySitDrink/2200 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"", 
+            },
+            "When": {
+                "HasMod|contains=Fellowclown.TC": true,
+                "HasMod|contains=Fellowclown.TW": true
+            },
+            "Priority": "Late"
+        },
+        //------------------------------------------------
+        // THE WAYFARER MOD COMPATIBILITY
+        //------------------------------------------------
+        {
+            "LogName": "Changing Lyell's Schedule When He Goes to the Saloon",
+            "Action": "EditData",
+            "Target": "Characters/schedules/FC.Lyell",
+            "Entries": {
+                "Mon": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/700 Mountain {{Random:49 32 2 FC.Lyell_StandSmoke,29 25 2 FC.Lyell_SitSmoke,31 10 3}}/1200 Town {{Random:21 61 3,54 79 1 FC.Lyell_Work,27 29 2 FC.Lyell_StandSmoke}}/1500 Saloon 35 35 2 FC.Lyell_StandDrink/2000 Fellowclown.TW_HalkiasResidents {{Random:13 5 2 FC.Lyell_SitSmoke,19 9 3 FC.Lyell_SitDrink,17 6 0}}/2300 Fellowclown.TW_HalkiasResidents 3 6 3 FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"", //Pelican Town
+
+                "Tue": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/700 Forest {{Random:34 25 2 FC.Lyell_StandSmoke,92 22 1 FC.Lyell_Work,83 51 3}}/1200 Mountain {{Random:49 32 2 FC.Lyell_StandSmoke,29 25 2 FC.Lyell_SitSmoke,31 10 3}}/1500 Saloon 35 35 2 FC.Lyell_StandDrink/2000 Beach {{Random:50 21 3,14 39 2 FC.Lyell_StandDrink,32 34 2}}/2300 Fellowclown.TW_HalkiasResidents 3 6 3 FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"", //Pelican Town
+
+                "Wed": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/700 AnimalShop {{Random:11 17 1,3 15 1,15 14 3}}/1200 Forest {{Random:111 36 2 FC.Lyell_StandSmoke,34 25 3 FC.Lyell_StandSmoke,34 11 2 FC.Lyell_StandSmoke}}/1500 Saloon 35 35 2 FC.Lyell_StandDrink/2000 Town {{Random:69 91 2 FC.Lyell_SitSmoke,112 27 2 FC.Lyell_StandSmoke,54 79 1 FC.Lyell_Work}}/2300 Fellowclown.TW_HalkiasResidents 3 6 3 FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"", //Pelican Town
+
+                "Thu": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/700 SeedShop {{Random:20 28 3,16 29 3,2 25 2}}/1200 Hospital 15 17 3 FC.Lyell_Sit3/1500 Saloon 35 35 2 FC.Lyell_StandDrink/2000 Mountain {{Random:49 32 2 FC.Lyell_StandSmoke,29 25 2 FC.Lyell_SitSmoke,31 10 3}}/2300 Fellowclown.TW_HalkiasResidents 3 6 3 FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"", //Pelican Town
+
+                "GreenRain": "0 Saloon 35 35 2 FC.Lyell_StandDrink/2000 Beach {{Random:50 21 3,14 39 2 FC.Lyell_StandDrink,32 34 2}}/2300 Fellowclown.TW_HalkiasResidents 3 6 3 FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"", 
+
+                "marriageJob": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/700 Beach {{Random:11 33 3,14 29 2 FC.Lyell_StandSmoke,54 6 2 FC.Lyell_SitDrink}}/1200 Town {{Random:21 61 3,54 79 1 FC.Lyell_Work,27 29 2 FC.Lyell_StandSmoke}}/1500 Saloon 35 35 2 FC.Lyell_StandDrink/2000 bed FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"", 
+
+                "winter_15": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/0 Saloon 35 35 2 FC.Lyell_StandDrink \"Strings\\schedules\\FC.Lyell:Lyell.NightMarket\""
+            },
+            "When": {"HasMod|contains=Fellowclown.TW": true},
+            "Priority": "Late"
+        },
+        {
+            "LogName": "Changing Lyell's Schedule When He Goes to the Saloon When The Collector Mod Is Also Installed",
+            "Action": "EditData",
+            "Target": "Characters/schedules/FC.Lyell",
+            "Entries": {
+                "Mon": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/1000 Fellowclown.TC_GradysHouse 9 14 3 FC.Lyell_SitDrink/1700 Forest 34 25 2/1930 Saloon 35 35 3/2300 Fellowclown.TW_HalkiasResidents 3 6 3 FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"", 
+                "Tue": "MAIL Fellowclown.TW_LyellIntro.Mail/GOTO NO_SCHEDULE/900 Fellowclown.TW_BoatBelly 31 13 3/1200 Town 35 68 3/1500 Beach 50 21 3/1930 Saloon 35 35 3/2300 Fellowclown.TW_HalkiasResidents 3 6 3 FC.Lyell_Sleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"" 
+            },
+            "When": {
+                "HasMod|contains=Fellowclown.TC": true,
+                "HasMod|contains=Fellowclown.TW": true
+            },
             "Priority": "Late"
         }
     ]
