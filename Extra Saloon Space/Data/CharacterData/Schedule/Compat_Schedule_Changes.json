@@ -79,7 +79,7 @@
             "Entries": {
                 "Mon": "1000 Fellowclown.TC_GradysHouse 4 14 0/1030 Fellowclown.TC_GradysHouse 6 13 0/1200 Fellowclown.TC_GradysHouse 6 14 1 FC.GradySitEat/1700 Forest 33 25 2/1930 Saloon 36 35 2 FC.GradySitDrink/2200 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"", 
 
-                "Tue": "900 Fellowclown.TW_BoatBelly 29 13 1/1200 Town 37 68 3/1500 Beach 47 21 1/1930 Saloon 36 35 2 FC.GradySitDrink/2200 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"", 
+                "Tue": "900 Fellowclown.TW_BoatBelly 29 13 1/1200 Town 37 68 3/1500 Beach 47 21 1/1930 Saloon 36 35 2 FC.GradySitDrink/2200 Fellowclown.TC_GradysHouse 24 14 3 \"Strings\\schedules\\FC.Grady:Grady.Sleeping\""
             },
             "When": {
                 "HasMod|contains=Fellowclown.TC": true,
