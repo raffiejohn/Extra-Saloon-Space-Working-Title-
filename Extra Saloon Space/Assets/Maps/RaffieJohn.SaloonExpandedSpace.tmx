@@ -19,7 +19,7 @@
  </tileset>
  <layer id="1" name="Back" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlU0OgjAUhEsDK7b4xyE0Cmpko4fwZym3cKm38CieTVdOQ14wpUBdUErSSSYDdDN8eeljrD9FfuGhKfUL26JbqDZp7hU5CxiLg/Kbjhded72fodpy7x06Zxb1foVqy71t473EzK4kJz9z/MHz2y9507tOToP+egvGxLouI3gEj+GJ4ryP3oIxsa7LFF7DG3irODfRO5HuaR3eR/gEn+GLId4qpX/ylnua4L3njB14NUk6vNv+owtd0THn1STZyvuOjg9eTdqbOryb7nDTvGlv6vBu6m2aN+3NofEWKXbe0OZbZNzC2cb7RGTWwtnxdnJyctLTF6h2bAI=
+   eJztlU0OgjAQhUsDK7b+cgiNghrZ6CH8WeotXOotPIpn05UzIROxFBgXtCXykpeXppvHRzMjhD31/MxtU+JndkWXUG/SxMv8hM4v/3PmeOo11/se6p3vjVoHQqTB97fY7P0I9VZ7j6Fz5FDvGfz7ueI4947pfRBvOnNyFNjrjYyJdVn2wH3wADzU3NvojYyJdVkm4AV4CV5p7k30jpU5zeG9A+/BB/DREG+dkh95qz1N8N5IIbaymCQO77rvaEIn6HiWxSS5yvsKHW+ymLQ3ObyrZrhp3rQ3ObyrepvmTXuzbbwxce9xeFftTNO8MaMazi7OE8y0hrOL88R13p06dfpPvQHuHnPW
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -28,16 +28,16 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1TdOA0EYhuG/Mfba3pLsFgwHINNi4AAm1/QUZErgBkQj5EuQaR04A7UDB8DEgrcYxDAgqGAWMZ/0NLuW9Wo12hVxc3P7D5v1RdYNKf/9b3JRkTwKKEbtdJrb8D9e2zSulWgto4LqH+oOxUTqEEYk9jtd3+2zbjc3cznOax4FpYgr7QzfeiI13OEeD3jEE549e90lGsuooKrcaN31vD8a0IgmNKMFrUhYfLeE4rwrEEZE8eJv97to60YPetGHfgxg0GJ3G43tSKJD6dS607SNYRwTmMQUpjGjuq+1/5tTfnpfPe9Dzss8bQtYxBKWsYJVrAX0eWfp3qJtGzvYxR72kcGBxe4hGlMYVkYwqnUf0XaME5ziDOe4wGVAvvnmsgH5pru5ubm97gWqhT7z
+   eJzt1TlOw0AYhuFpTGI7LtkCLdsB2GkJcAB2anoKdkrgAogtIJRLhL3Nwhmos3AAdgreYlBMMHYa7BjNJz2Nx7I+jX79FkIl7NnTnHmd10Ll/2TREmK7SsL6/k7GECKLHPKG91z5kR3r57PdqmcFuhZRQtlw/o7fM11Lb80UogERRE1/ennFqXe9J8z7K6zdM8xrFjkpjzvbDD/qQjzhGS94xRve8aEH17tAxyJKKEsPZuXeG9kfTWhGC1oRRxva5W4J4p+pxdgViCAq6bHKeS/d+tCPAQxiCMMY+WUn+pEOOnaiC91Sj633JN2mMI0ZzGIO81iQve9t31uS/jpu933GvCzTbQWrWMM6NrCJrQDnxO2+U/Tep9sBDnGEYyRxgtMA52SUjgmMSeOYsPVO0+0cF7jEFa5xg9sAe7slVSf/dBUVFZWvfAL9+WDL
   </data>
  </layer>
  <objectgroup id="4" name="Back2"/>
  <layer id="5" name="Buildings" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlztOw0AURSd2LCIHiU8PHW0Q7ICCCppAwx5IQwVUIHoQcZtIgAApfAoEJWmIBeKXFZCKDRBYAffJM/Jg2cbBHuPCVzqa/+Tq6TlPw1j6KoA5aTzP5wYhaZlAD2CY76G+LZ3phJzxUlTkm+LY8JlvMieuIs4V6ccrEY28687dU3EMBoh83YKqhzaL75vU4PckLfL1BtY89Jjrm3x6fUdluqDOd5CE72ODsbrkm/p3mOuALj6QHd1hAkyCPtbvsfYALPZ/vuMqi74/NMRXc/r7aC3eX0C7qLn3JK2ovtd1/z0jmB/la1fwec29rqKtKfZdxZ/sksRy8adv8rwBNgO8/6YsxlueH8M32gefnC8wbqqrO0Giumj7zPvFP6yGqvRdRi7emE5b5nlJNaMZclaOtV/NFUo7T6iOtiPe41dzBSp9izjL8aY62pP2tlBHzsA5uACXhrvWNdxaS315nHa8h+C/pLnjR3h5As/gBbxKvuWcF/mzhXZbTyfeIseT0AE8Hyr2rUIq430Ucd8MHhGzoA4s/qCwS067i/EeOMH4FKzw/BHxbiXuevD31l/JlStX9vQNQqBZ6Q==
+   eJztl7tKw1AcxtOkxZIKXnbdXCv6Bg5OulQX30EXJ3VS3BUbcWpBRYV6GURHu9igeOsT2MkXsPoEfoecQ/4NJzGxOTFDPvhxrgkfX0/ybzQteeXADBnP8rkoxC0TGD4M8j2sb5NrWgHXeMkr8s1yrEnm65qTq8h5v+Cu0X6QPmD8AHsn+nIoF/N1Byoemlqv7zIJrRwhwBq/T9xivt7BqoeO5vpmPr2+wzKZU+fbT8L3CX7rKvHN+veYa4E2HpBtw2EMjIMu1h+w9ggs7f9896s0+v7Uka/u9PfQWrw/h3Zed+8Tt8L6XjPke4YwP8zXruHzhntdRrui2HcFL9kFwmK+1zfzvA42fLz/pjTmTedH8Ix2wRfnG4ya6uqOn1hdtCXzsvyDaqhK3yWcxVvTaUv8XLKaUQ+4lmYtq7lCSZ8TVkebIe8jq7kClb5FzjRvVkc7ZG8DdeQcXIBLcEX+p7QLbq1lfTpOOu8B+C/q7vgJXp7BC3gFb8Q3PfPi/Gyi3TKSyVuc8Th0CM9Hin2rkMq8j0Pum8JHxDSoAot/UNhFp93BeBecYnwGlvj5EXk3Yncd/Xvrr2TKlCl9+gFbslq6
   </data>
  </layer>
- <objectgroup id="6" name="Buildings" visible="0">
+ <objectgroup id="6" name="Buildings">
   <object id="1" name="TileData" x="464" y="80" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;RaffieJohn.Arcade1&quot;"/>
@@ -56,7 +56,7 @@
  </objectgroup>
  <layer id="7" name="Buildings2" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJzt0M0NQEAQhuEhEYmulEAFrsKFPlxcaUEFdEIxVrKHcWHH3xLfk0x2TfbwBhGYCGwHHBTqs2W7xkaI0NIdqRnYrtc7k4mfjGWW7kLNxHaj3plM+WQsE+4/2VRfUiF3ttsWabfj3pIh9pf//RbS7sQhynyiVE3u35IESuWt7/z7zTpvfe8+0g0AAADnzYQhFeo=
+   eJzt0M0NQEAQhuEhEYmulEAFrsKFPlxcaUEFdEIxVrKHcWHH+o3vSSbWZCVvEIGJ4OmAg0L9bNmuEXwvuXumpTtSM7Bdr3cmE98ZyyzdhZqJ7Ua9M5nyzlgm3L+yqT6lQs62+ynSbse9JEPsL//7LaTdiUOU+USpmty/JAmUyluf+fubdd763H2kGwAAAOzNHH8WhQ==
   </data>
  </layer>
  <objectgroup id="8" name="Buildings2"/>
@@ -75,7 +75,7 @@
   </data>
  </layer>
  <objectgroup id="12" name="Front2"/>
- <layer id="13" name="Paths" width="46" height="25" visible="0">
+ <layer id="13" name="Paths" width="46" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBgFQx2s5CVObBTQBwzWsAe5Cxsm15xRMDwBMWlkNA2MgqEOkNPvaFoeeACLA3QaWX64xBMt/TGarjHBaDiMglEwCkYBBAAAdfwUnw==
   </data>

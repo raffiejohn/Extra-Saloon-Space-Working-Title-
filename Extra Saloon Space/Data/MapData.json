@@ -2,10 +2,10 @@
     "Changes": [
 
 		//===================================
-		// WHEN QUEST VERSION IS SELECTED
+		//               MAPS
 		//===================================
 
-		//MAPS
+		//SALOON ADDITION
 		{
 			"LogName": "Saloon Addition",
 			"Action": "EditMap",
@@ -16,6 +16,28 @@
 				"Y": 25,
 				"Width": 46,
 				"Height": 25
+			}
+		},
+
+		//WARP ROOM
+		{
+			"LogName": "Saloon Addition - Warp Room",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"RaffieJohn.SaloonWarpRoom": {
+					"CreateOnLoad":{
+						"MapPath": "Maps/RaffieJohn.SaloonExpandedSpace_WarpRoom"
+					},
+					"DisplayName": "{{i18n: RaffieJohn.SaloonWarpRoom.Name}}",
+					"DefaultArrivalTile": {
+						"X": 3,
+						"Y": 10
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"Music": [],
+					"MusicIgnoredInRain": false
+				}
 			}
 		},
 
