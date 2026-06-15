@@ -78,6 +78,68 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			},
 			  "Priority": "Late"
-		}
+		},
+    	//===================================
+		//             COMPAT FOR LUTI (Thank you Abagaianye)
+		//===================================
+		{
+            "LogName": "Fix stair area when using LUTI",
+            "Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "Priority": "Late+100",
+            "MapTiles": [
+                {
+                    "Position": { "X": 29, "Y": 20 },
+                    "Layer": "Front",
+                    "SetIndex": 163,
+                    "SetTilesheet": "1"
+                },
+                {
+                    "Position": { "X": 34, "Y": 20 },
+                    "Layer": "Front",
+                    "SetIndex": 162,
+                    "SetTilesheet": "1"
+                },
+                {
+                    "Position": { "X": 29, "Y": 21 },
+                    "Layer": "Front",
+                    "SetIndex": 68,
+                    "SetTilesheet": "1"
+                },
+                {
+                    "Position": { "X": 34, "Y": 21 },
+                    "Layer": "Front",
+                    "SetIndex": 64,
+                    "SetTilesheet": "1"
+                },
+                {
+                    "Position": { "X": 29, "Y": 22 },
+                    "Layer": "Front",
+                    "SetIndex": 68,
+                    "SetTilesheet": "1"
+                },
+                {
+                    "Position": { "X": 34, "Y": 22 },
+                    "Layer": "Front",
+                    "SetIndex": 64,
+                    "SetTilesheet": "1"
+                },
+                {
+                    "Position": { "X": 29, "Y": 23 },
+                    "Layer": "Front",
+                    "SetIndex": 167,
+                    "SetTilesheet": "1"
+                },
+                {
+                    "Position": { "X": 34, "Y": 23 },
+                    "Layer": "Front",
+                    "SetIndex": 160,
+                    "SetTilesheet": "1"
+                }
+            ],
+            "When": {
+                "HasMod|contains=uglynt.town.interiors": true
+            }
+        }
     ]
 }
