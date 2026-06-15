@@ -5,7 +5,7 @@
     "Description": "Adds more space to the Saloon.",
     "UniqueID": "RaffieJohn.ExtraSaloonSpace",
     "Dependencies": [],
-    "UpdateKeys": [ "Nexus: " ],
+    "UpdateKeys": [ "Nexus: 47688" ],
     "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
     }
